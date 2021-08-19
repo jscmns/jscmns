@@ -217,3 +217,21 @@ nav, footer{
 .navbar-toggler {
   color: var(--clr-light)
 }
+
+@media (min-width: 1920px) {
+  #heading-p {
+    padding: 7rem;
+  }
+}
+
+@media (min-width: 1650px){
+  #social-icons-nav {
+    margin-right: 6vw;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  #my-pic {
+    padding-top: 4rem;
+  }
+}
